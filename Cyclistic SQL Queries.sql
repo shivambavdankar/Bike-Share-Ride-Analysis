@@ -15,7 +15,7 @@ from march2022
 where member_casual LIKE 'casual'
 group by start_station_name
 order by count(ride_id) desc
-limit 11 offset 1;
+limit 10;
 
 /* Joining march and april ride data and having a look at first 10 records */
 select *
